@@ -1,0 +1,5 @@
+<<INICIO>>
+Hola que hace?
+aqui probando neovim
+madre mia es vi doblemente mejorado
+<<FIN>>

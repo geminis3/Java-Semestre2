@@ -1,0 +1,77 @@
+package formularios;
+
+import java.awt.BorderLayout;
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JLabel;
+import java.awt.Font;
+import javax.swing.JComboBox;
+
+public class Form1 extends JFrame {
+
+	private JPanel contentPane;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Form1 frame = new Form1();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public Form1() {
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 640, 427);
+		contentPane = new JPanel();
+		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JLabel lblNewLabel = new JLabel("Conversor");
+		lblNewLabel.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		lblNewLabel.setBounds(253, 38, 103, 13);
+		contentPane.add(lblNewLabel);
+		
+		JLabel lblCantidad = new JLabel("Cantidad");
+		lblCantidad.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		lblCantidad.setBounds(10, 115, 103, 13);
+		contentPane.add(lblCantidad);
+		
+		JLabel lblDe = new JLabel("De");
+		lblDe.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		lblDe.setBounds(10, 163, 103, 13);
+		contentPane.add(lblDe);
+		
+		JLabel lblA = new JLabel("A");
+		lblA.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		lblA.setBounds(322, 163, 103, 13);
+		contentPane.add(lblA);
+		
+		JLabel lblSolucion = new JLabel("Solucion");
+		lblSolucion.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		lblSolucion.setBounds(10, 265, 103, 13);
+		contentPane.add(lblSolucion);
+		
+		JComboBox comboBox = new JComboBox();
+		comboBox.setBounds(54, 160, 258, 23);
+		contentPane.add(comboBox);
+		
+		JComboBox comboBox_1 = new JComboBox();
+		comboBox_1.setBounds(358, 160, 258, 23);
+		contentPane.add(comboBox_1);
+	}
+}

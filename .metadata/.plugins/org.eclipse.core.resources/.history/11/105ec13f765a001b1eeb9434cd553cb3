@@ -1,0 +1,7 @@
+package clases;
+
+public class Convertir {
+	public double ConvertirC2F(double dato) {
+		return ((dato*9/5)+32);
+	}
+}

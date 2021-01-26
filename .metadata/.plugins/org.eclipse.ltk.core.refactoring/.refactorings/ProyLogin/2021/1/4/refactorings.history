@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;formularios.Login&apos; to &apos;FormLogin&apos;&#x0D;&#x0A;- Original project: &apos;ProyLogin&apos;&#x0D;&#x0A;- Original element: &apos;formularios.Login&apos;&#x0D;&#x0A;- Renamed element: &apos;formularios.FormLogin&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Login&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;formularios{Login.java[Login" matchStrategy="1" name="FormLogin" qualified="false" references="true" similarDeclarations="false" stamp="1611069658687" textual="false" version="1.0"/>
+</session>

@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class BuscarElementoArray {
 
 	public static void main(String[] args) {
-		int[] arreglo = {3,6,8,7,1,0};
+		int[] arreglo = {3,6,8,11,7,1,0};
 		int buscado,i=0;
 		boolean found = false;
 		Scanner sc = new Scanner(System.in);

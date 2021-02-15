@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class BuscarElementoMatriz {
 
 	public static void main(String[] args) {
-		int[][] matriz1 = new int[5][4];
+		int[][] matriz1 = new int[20][20];
 		int filas=matriz1.length, columnas=matriz1[0].length, buscado,x=0,y=0;
 		boolean found = false;
 		Scanner sc = new Scanner(System.in);
